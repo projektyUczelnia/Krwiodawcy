@@ -8,9 +8,21 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainWindow"></activity>
-        <activity android:name=".Register" />
-        <activity android:name=".LogIn" />
+        <activity android:name=".Messages">
+
+        </activity>
+        <activity android:name=".BloodDonation">
+
+        </activity>
+        <activity android:name=".MainWindow">
+
+        </activity>
+        <activity android:name=".Register">
+
+        </activity>
+        <activity android:name=".LogIn">
+
+        </activity>
         <activity android:name=".Starter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
