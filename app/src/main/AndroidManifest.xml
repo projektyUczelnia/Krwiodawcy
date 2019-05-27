@@ -8,21 +8,11 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Messages">
-
-        </activity>
-        <activity android:name=".BloodDonation">
-
-        </activity>
-        <activity android:name=".MainWindow">
-
-        </activity>
-        <activity android:name=".Register">
-
-        </activity>
-        <activity android:name=".LogIn">
-
-        </activity>
+        <activity android:name=".Messages" />
+        <activity android:name=".BloodDonation" />
+        <activity android:name=".MainWindow" />
+        <activity android:name=".Register" />
+        <activity android:name=".LogIn" />
         <activity android:name=".Starter">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".BloodLogActivity" />
+        <activity android:name=".EventsActivity" />
+        <activity android:name=".BadgesActivity" />
+
     </application>
 
 </manifest>

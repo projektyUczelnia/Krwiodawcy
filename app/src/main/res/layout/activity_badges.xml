@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BadgesActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:columnCount="1"
+        app:rowCount="3">
+
+        <include
+            android:id="@+id/include4"
+            layout="@layout/frame_with_menu_button"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <TextView
+            android:id="@+id/textViewBadges"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:padding="20dp"
+            android:text="ODZNACZENIA"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingBottom="20dp"
+                    app:columnCount="1"
+                    app:rowCount="14">
+
+                    <TextView
+                        android:id="@+id/textViewBadges1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="@string/badges1"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="1" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="@string/count"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="2" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:text="@string/badges2"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="3" />
+
+                    <ImageView
+                        android:id="@+id/imageViewBadges2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/badges2"
+                        android:padding="10dp"
+                        app:layout_columnWeight="1"
+                        app:layout_gravity="center"
+                        app:layout_rowWeight="4"
+                        app:srcCompat="@mipmap/badges2" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges22"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="@string/count"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="5" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:text="@string/badges3"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="6" />
+
+                    <ImageView
+                        android:id="@+id/imageViewBadges3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/badges3"
+                        android:padding="10dp"
+                        app:layout_columnWeight="1"
+                        app:layout_gravity="center"
+                        app:layout_rowWeight="7"
+                        app:srcCompat="@mipmap/badges3" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges32"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="@string/count"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="8" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:text="@string/badges4"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="9" />
+
+                    <ImageView
+                        android:id="@+id/imageViewBadges4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/badges4"
+                        android:padding="10dp"
+                        app:layout_columnWeight="1"
+                        app:layout_gravity="center"
+                        app:layout_rowWeight="10"
+                        app:srcCompat="@mipmap/badges4" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges42"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="@string/count"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="11" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        android:padding="10dp"
+                        android:text="@string/badges5"
+                        android:textAlignment="center"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="12" />
+
+                    <ImageView
+                        android:id="@+id/imageViewBadges5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:contentDescription="@string/badges5"
+                        android:padding="10dp"
+                        app:layout_columnWeight="1"
+                        app:layout_gravity="center"
+                        app:layout_rowWeight="13"
+                        app:srcCompat="@mipmap/badges5" />
+
+                    <TextView
+                        android:id="@+id/textViewBadges52"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="@string/count"
+                        android:textAlignment="center"
+                        android:textSize="16sp"
+                        app:layout_columnWeight="1"
+                        app:layout_rowWeight="14" />
+                </android.support.v7.widget.GridLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </android.support.v7.widget.GridLayout>
+</android.support.constraint.ConstraintLayout>

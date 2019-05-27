@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Krwiodawcy</string>
+    <string name="count">Do zdobycia: </string>
+    <string name="badges1">HONOROWY DAWCA KRWI</string>
+    <string name="badges2">ZASŁUŻONY HONOROWY DAWCA KRWI III STOPNIA</string>
+    <string name="badges3">ZASŁUŻONY HONOROWY DAWCA KRWI II STOPNIA</string>
+    <string name="badges4">ZASŁUŻONY HONOROWY DAWCA KRWI I STOPNIA</string>
+    <string name="badges5">HONOROWY DAWCA KRWI ZASŁUŻONY DLA DROWIA NARODU</string>
 </resources>
